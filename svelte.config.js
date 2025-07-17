@@ -15,7 +15,9 @@ const config = {
 		csrf: {
 			checkOrigin: false
 		},
-		tracing: 'server'
+		experimental: {
+			tracing: 'server'
+		}
 	}
 };
 
